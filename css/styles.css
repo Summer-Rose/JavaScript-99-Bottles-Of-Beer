@@ -1,3 +1,31 @@
 #results {
 	display: none;
 }
+
+.header {
+	height: 180px;
+	background-image: url('../img/bottles.png');
+	background-size: contain;
+}
+
+h1 {
+	text-align: center;
+	color: #FF7519;
+	padding-top: 2px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 60px;
+}
+
+.well h3, p, form {
+	text-align: center;
+}
+
+.songDisplay h4 {
+	background-color: #FFCC66;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.songDisplay h4:nth-child(odd) {
+	background-color: #FFC388;
+}
