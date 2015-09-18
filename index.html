@@ -8,5 +8,26 @@
     <title>99 Bottles Of Beer</title>
   </head>
   <body>
+  	<div class="header">
+  		<h1>99 Bottles of Beer on the Wall</h1>
+  	</div>
+
+  	<div class="container">
+  		<div class="well">
+  			<h3>Sing along!</h3>
+  			<p>Enter a number in the form below and we'll sing your song that many times</p>
+  			<form id="numberForm">
+  			<div class="form-group">
+  				<label for="number">Enter a number:</label>
+  				<input id="number" type="number">
+  				<button type="submit" class="btn btn-warning">Beer me!</button>
+  			</div>
+  			</form>
+  		</div>
+
+  		<div id="results">
+  			<p>The number you entered: <span class="numberEntered"></span></p>
+  		</div>
+  	</div>
   </body>
 </html>
