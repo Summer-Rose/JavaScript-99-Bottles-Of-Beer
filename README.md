@@ -6,7 +6,9 @@
 
 ## Description
 
-Description goes here
+This application accepts a number inutted by the user, n, and outputs the lyrics to the song "99 Bottles of Beer on the Wall" n number of times. 
+
+The sound for this application is not currently functioning. 
 
 ## Setup
 
@@ -20,8 +22,13 @@ Description goes here
 * jQuery
 * Mocha
 * Chai
+* Bootstrap
+* HTML
+* CSS
 
 ### Legal
+
+Bottles Image: http://myselectlife.com/2013/08/13/999-bottles-of-beer-on-the-shelves/
 
 Copyright (c) 2015 **Summer Brochtrup**
 
