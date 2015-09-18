@@ -6,7 +6,7 @@
 
 ## Description
 
-This application accepts a number inutted by the user, n, and outputs the lyrics to the song "99 Bottles of Beer on the Wall" n number of times. 
+This application accepts a number, n,  as the user input and outputs the lyrics to the song "99 Bottles of Beer on the Wall" n number of times. 
 
 The sound for this application is not currently functioning. 
 
