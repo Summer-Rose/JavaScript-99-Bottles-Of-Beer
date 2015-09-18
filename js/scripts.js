@@ -26,12 +26,24 @@ function bottlesOfBeer(number) {
 };
 
 $(document).ready(function() {
+	$("#title").hide().fadeIn("slow");
 	$("form#numberForm").submit(function() {
 		var number = parseInt($("input#number").val());
 		var resultArray = bottlesOfBeer(number);
-
+		$("#box").hide();
 		$("#results").show();
 		$(".numberEntered").text(number);
+
+		resultArray.forEach(function(songUnit) {
+			$("<h4>" + songUnit + "</h4>").appendTo(".songDisplay").hide().slideDown("slow");
+		});
 		event.preventDefault();
 	});
+	//TODO: Add beer-open sound to h4 display on hover
+	// var beerOpen = $('#beer-open')[0];    
+
+	// $(document).on('click', '#beer-open', function()  {     
+ //   		beerOpen.play();    
+ //    	return false;    
+	// });    
 });
