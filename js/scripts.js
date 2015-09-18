@@ -8,19 +8,19 @@ function bottlesOfBeer(number) {
 
 		if (i === 1) {
 			ibottle = " bottle";
-			debugger;
 		}
-		if (j !== 0 && j === 1) {
+		if (j === 1) {
 			jbottle = " bottle";
+		}
+		if (j === 0) {
+			jbottle = " bottles";
 		}
 
 		if (i === 0) {
 			text.push("No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall.");
 		} else {
 			text.push(i + ibottle + " of beer on the wall, " + i + ibottle + " of beer. Take one down, pass it around, " + j + jbottle + " of beer on the wall.");
-			debugger;
 		}
-
 	}
 	return text;
 };
