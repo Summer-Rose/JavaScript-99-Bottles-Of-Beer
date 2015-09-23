@@ -35,15 +35,19 @@ $(document).ready(function() {
 		$(".numberEntered").text(number);
 
 		resultArray.forEach(function(songUnit) {
-			$("<h4>" + songUnit + "</h4>").appendTo(".songDisplay").hide().slideDown("slow");
+			$("<h4 class='songLine'>" + songUnit + "</h4>").appendTo(".songDisplay").hide().slideDown("slow");
 		});
+
+		var beerOpen = $('#beer-open')[0];    
+
+		$('.songLine').click(function()  {     
+   			beerOpen.play();
+   			$(this).remove();
+    		return false;    
+		}); 
+
 		event.preventDefault();
 	});
-	//TODO: Add beer-open sound to h4 display on hover
-	// var beerOpen = $('#beer-open')[0];    
-
-	// $(document).on('click', '#beer-open', function()  {     
- //   		beerOpen.play();    
- //    	return false;    
-	// });    
+	
+	var beerOpen = $('#beer-open')[0];    
 });
