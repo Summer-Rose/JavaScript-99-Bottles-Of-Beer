@@ -29,3 +29,8 @@ h1 {
 .songDisplay h4:nth-child(odd) {
 	background-color: #FFC388;
 }
+
+.songDisplay h4:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}

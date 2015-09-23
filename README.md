@@ -1,6 +1,6 @@
 # 99 Bottles of Beer
 
-##### _Epicodus Week 6 - JavaScrpt Week One Code Review, 17 September 2015_
+##### _Epicodus Week 6 - JavaScript Week One Code Review, 17 September 2015_
 
 #### By **Summer Brochtrup**
 
